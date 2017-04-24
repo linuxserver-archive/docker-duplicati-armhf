@@ -1,4 +1,4 @@
-FROM lsiobase/mono
+FROM lsiobase/mono.armhf
 MAINTAINER sparklyballs
 
 # environment settings
