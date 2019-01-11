@@ -5,6 +5,8 @@
 [appurl]: https://www.duplicati.com
 [hub]: https://hub.docker.com/r/lsioarmhf/duplicati/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/duplicati`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -81,6 +83,7 @@ The webui is at `<your ip>:8200` , create backup jobs etc via the webui, for loc
 
 ## Versions
 
++ **11.01.19:** This image is deprecated. Please use the multi-arch images at linuxserver/duplicati
 + **22.12.17:** Fix continuation lines.
 + **31.08.17:** Build only beta or release versions (thanks deasmi).
 + **24.04.17:** Initial Release.
